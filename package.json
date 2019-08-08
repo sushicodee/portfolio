@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-final-backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "node index.js",
+    "client": "npm start --prefix portfolio-final",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "npm install --prefix portfolio-final && npm run build --prefix portfolio-final"
+  },
+  "engines": {
+    "node": "10.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

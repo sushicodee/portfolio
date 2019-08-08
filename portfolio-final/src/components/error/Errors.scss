@@ -1,0 +1,24 @@
+
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(37, 37, 37);
+    width:100vw;
+    height:100vh
+}
+    .optional-route{
+        label{
+            color:white;
+            font-size: 1.4em;
+            a{
+                color:red;
+                text-decoration: none;
+
+            }
+            a:hover{
+                color:blue;
+            }
+        }
+    }
